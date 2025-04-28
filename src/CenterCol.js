@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './Default.css';
+import './CenterCol.css';
 
 
 function NavBar() {
