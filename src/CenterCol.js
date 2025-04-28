@@ -45,7 +45,7 @@ function Section({SectionContent, label}) {
     "about": "hi! we are sexy craig, stanford's premiere six-person band. our focus is on pop/jazz, with an emphasis on covers and arrangements.", 
     "members": "our members are: medha on vocals, emily on drums, eddy on keyboard, sunny on guitar, and issa on bass.",
     "new events": "our first live performance is coming up on may 24th, at tressider (on the side of the package center), from 7pm-8pm!",
-    "past performances": "below is a list of our past performances, <a>link1</a>, <a>link2</a>. stay tuned for more!"
+    "past performances": "below is a list of our past performances, link1, link2. stay tuned for more, posted on our instagram and youtube!"
   }
   
   return(
