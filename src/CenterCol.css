@@ -1,0 +1,73 @@
+.CenterCol {
+  margin: 0px 20px;
+}
+.NavBar {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction:row;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+
+}
+.NavBar > div{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.NavLeftButtons {
+  margin: 10px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.PageTitle {
+  font-size: larger;
+  font-family:'Times New Roman', Times, serif;
+}
+.NavigationList{
+  margin: 0px 30px;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+.NavigationList span {
+  font-size: small;
+  background-color: #fff;
+  padding: 0px 5px;
+  margin: 0px 5px;
+}
+.NavBar > div > span{
+  margin: 10px 10px;
+}
+.InfoCols {
+  width: 700px;
+  height:80vh;
+  margin: 20px 0px;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  align-content: space-between;
+}
+.Section {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  justify-content: space-between;
+  width:30%;
+}
+
+.SectionTitleDiv {
+  text-align: center;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.SectionTitle {
+  margin: 5px;
+  font-weight:bold;
+}
+.SectionTextDiv {
+  margin: 0px 0px 5px 0px;
+}
