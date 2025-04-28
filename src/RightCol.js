@@ -1,0 +1,34 @@
+import logo from './logo.svg';
+import './Default.css';
+
+
+function LanguageToggle() {
+  return(
+    <select className="ChangeLang">
+      <option value="lang=en&setlang=1">english</option>
+    </select>
+  )
+}
+
+function LocationsList() {
+  return(
+    <div className="LocationsList">
+      <div>tressider</div>
+      <div>arbor</div>
+      <div>oncall</div>
+      <div>white plaza</div>
+      <div>palm drive</div>
+    </div>
+  )
+}
+
+function RightCol() {
+  return(
+    <div className="RightCol">
+      <LanguageToggle />
+      <LocationsList />
+    </div>
+  )
+}
+
+export default RightCol;
