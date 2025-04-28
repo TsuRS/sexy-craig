@@ -56,9 +56,9 @@ function Section({SectionContent, label}) {
         </p>
       </div>
       <div className="SectionTextDiv">
-        <p className="SectionText">
+        <div className="SectionText">
           {content[label]}
-        </p>
+        </div>
       </div>
     </div>
   )
