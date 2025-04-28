@@ -32,18 +32,18 @@ function NavBar() {
 function InformationSections() {
   return(
     <div class="InfoCols">
-      <Section  label="About" />
-      <Section  label="Members" />
-      <Section  label="New Events" />
+      <Section  label="about" />
+      <Section  label="members" />
+      <Section  label="new events" />
     </div>
   )
 }
 
 function Section({SectionContent, label}) {
   const content = {
-    "About": "about me info stuff about me info stuff about me info stuff about me info stuff about me info stuff about me info stuff ", 
-    "Members": "member info stuffmember info stuffmember info stuffmember info stuffmember info stuffmember info stuffmember info stuff",
-    "New Events": "new event info stuffmember info stuffmember info stuffmember info stuffmember info stuff",
+    "about": "hi! we are sexy craig, stanford's premiere six-person band. our focus is on pop/jazz, with an emphasis on covers and arrangements.", 
+    "members": "member info stuffmember info stuffmember info stuffmember info stuffmember info stuffmember info stuffmember info stuff",
+    "new events": "new event info stuffmember info stuffmember info stuffmember info stuffmember info stuff",
   }
   
   return(
