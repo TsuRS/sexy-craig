@@ -31,7 +31,7 @@ function PageLinks() {
     <div 
     className="PageLinks"
     >
-      <HeaderLink pageDirect="https://www.instagram.com/ehmeeli.t" linkName="instagram"/>
+      <HeaderLink pageDirect="https://www.instagram.com/sexy_craig" linkName="instagram"/>
       <HeaderLink pageDirect="https://www.youtube.com/@sexycraig" linkName="youtube"/>
     </div>
   )
