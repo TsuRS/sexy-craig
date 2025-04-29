@@ -7,10 +7,9 @@
   font-family:"Open Sans","Helvetica","Arial",sans-serif;
   color:blue;
 }
-.content > div{
-  padding: 10px;
-}
+
 .LeftCol, .RightCol {
+  padding: 10px;
   display:flex;
   flex-direction:column;
   align-items: center;

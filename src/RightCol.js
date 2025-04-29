@@ -27,7 +27,10 @@ function RightCol() {
   return(
     <div className="RightCol">
       <LanguageToggle />
-      <LocationsList />
+      <div className="LocationDiv">
+        <div className="LocationHeader">nearby</div>
+        <LocationsList />
+      </div>
     </div>
   )
 }

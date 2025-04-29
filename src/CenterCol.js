@@ -11,19 +11,19 @@ function NavBar() {
           <span>🔥PageTitle</span>
         </div>
         <div className="NavigationList">
-          <span>pl1</span>
-          <span>pl1</span>
-          <span>pl1</span>
-          <span>pl1</span>
-          <span>pl1</span>
+          <span>eml</span>
+          <span>mdh</span>
+          <span>edy</span>
+          <span>sny</span>
+          <span>isa</span>
         </div>
       </div>
       <div className="NavRightButtons">
         <span>
-          Email
+          ✉️Email
         </span>
         <span>
-          Acct
+          👱Acct
         </span>
       </div>
     </div>
@@ -33,9 +33,9 @@ function NavBar() {
 function InformationSections() {
   return(
     <div class="InfoCols">
-      <Section  label="about" />
-      <Section  label="members" />
-      <Section  label="new events" />
+      <Section label="about" />
+      <Section label="members" />
+      <Section label="new events" />
       <Section label="past performances" />
       <Section label="placeholder" />
       <Section label="placeholder" />
