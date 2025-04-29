@@ -12,8 +12,11 @@
 }
 
 .LocationHeader {
+  font-size:small;
   text-align: center;
   background-color: #fff;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+  margin: 5px;
+  font-weight:bold;
 }
