@@ -41,6 +41,7 @@ function InformationSections() {
       <Section label="placeholder" />
       <Section label="placeholder" />
       <Section label="placeholder" />
+      <Section label="placeholder" />
     </div>
   )
 }
